@@ -2,7 +2,7 @@ package eg.edu.alexu.csd.datastructure.iceHockey;
 import java.awt.Point;
 public class findPlayers {
   java.awt.Point[] findPlayers(String[] photo,int team,int threshold){
-	  char [][] a=new char[photo.length][photo[1].length()];
+	 char [][] a=new char[photo.length][photo[1].length()];
 	  int [][]  b=new int[a.length+2][a[1].length+2];
 	  Point[] c=new Point[1000];int i,j;
 	  for(i=0;i<1000;i++) 
@@ -109,5 +109,6 @@ public class findPlayers {
         }
 		return s;
 	 
+	  
 }
 }
