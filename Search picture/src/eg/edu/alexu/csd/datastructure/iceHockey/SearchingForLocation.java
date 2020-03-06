@@ -59,7 +59,7 @@ class SearchingForLocation {
 			Point []p10=input.findPlayers(s1, 1,16);
             assertEquals("Error",p10);
 		} catch (Exception e) {
-			System.out.println(e.toString());
+			System.out.println("Image is empty");
 		}
 		
 	}
