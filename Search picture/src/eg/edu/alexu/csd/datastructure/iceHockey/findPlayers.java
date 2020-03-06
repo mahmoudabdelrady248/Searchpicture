@@ -5,7 +5,7 @@ public class findPlayers {
 	  char [][] a=new char[photo.length][photo[1].length()];
 	  int [][]  b=new int[a.length+2][a[1].length+2];
 	  Point[] c=new Point[1000];int i,j;
-	  for(i=0;i<1000;i++) 
+	  for(i=0;i<500;i++) 
 		  c[i]=new Point(-1,-1);
 		  for(i=0;i<photo.length;i++) {
 			for(j=0;j<photo[1].length();j++)
